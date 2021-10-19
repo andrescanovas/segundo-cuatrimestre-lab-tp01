@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+  <h1>BASE DE PERSONAJES</h1>
+  <section class="crud">
+    <article>
+      <h2 class="crud-title">Agregar Personajes</h2>
+
+      <form class="crud-form">
+        <input type="text" name="nombre" placeholder=" Nombre" required class="input">
+        <br>
+        <input type="text" name="apellido" placeholder=" Apellido" required class="input">
+        <br>
+        <input type="text" name="serie" placeholder=" Serie" required class="input">
+        <br>
+        <br>
+        <input type="submit" value="Enviar" class="enviar">
+        <input type="hidden" name="id">
+      </form>
+
+    </article>
+    <article>
+      <h2>Lista Personajes</h2>
+
+      <table class="crud-table">
+        <thead>
+          <tr class="caja">
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Serie</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+
+        <tbody class="lista"></tbody>
+
+      </table>
+
+    </article>
+  </section>
+  <template id="crud-template">
+    <tr>
+      <!-- ESTOS DATOS SON REFERENCIADOS EN EL JS TIP(1) -->
+      <td class="nombre"></td> 
+      <td class="apellido"></td>
+      <td class="serie"></td>
+      <td >
+        <button class="edit botones-editar" >Editar</button>
+        <button class="delete botones-eliminar">Eliminar</button>
+      </td>
+    </tr>
+  </template>
+
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="api.js"></script>
+</body>
+
+</html>

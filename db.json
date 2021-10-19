@@ -1,0 +1,106 @@
+{
+  "personajes": [
+    {
+      "nombre": "Homero",
+      "apellido": "Simpson",
+      "serie": "Los Simpsons",
+      "id": 1
+    },
+    {
+      "nombre": "Bart",
+      "apellido": "Simpson",
+      "serie": "Los Simpsons",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "nombre": "Maggie",
+      "apellido": "Simpson",
+      "serie": "Los Simpsons"
+    },
+    {
+      "nombre": "Luffy.D ",
+      "apellido": "Monkey",
+      "serie": "One Piece",
+      "id": 5
+    },
+    {
+      "nombre": "Barney",
+      "apellido": "Gomez",
+      "serie": "Los Simpsons",
+      "id": 8
+    },
+    {
+      "nombre": "Eric",
+      "apellido": "Cartman",
+      "serie": "South park",
+      "id": 9
+    },
+    {
+      "nombre": "Goku",
+      "apellido": "Son",
+      "serie": "Dragon ball",
+      "id": 10
+    },
+    {
+      "nombre": "Zoro ",
+      "apellido": "Roronoa",
+      "serie": "One Piece",
+      "id": 11
+    },
+    {
+      "nombre": "Nico",
+      "apellido": "Robin",
+      "serie": "One Piece",
+      "id": 12
+    },
+    {
+      "nombre": "Bruce",
+      "apellido": "Wayne",
+      "serie": "Batman",
+      "id": 13
+    },
+    {
+      "nombre": "hola",
+      "apellido": "hola",
+      "serie": "hola",
+      "id": 14
+    },
+    {
+      "nombre": "Seiya",
+      "apellido": "no tiene",
+      "serie": "caballero del zodiaco",
+      "id": 15
+    },
+    {
+      "nombre": "546654",
+      "apellido": "6+5",
+      "serie": "5465",
+      "id": 16
+    },
+    {
+      "nombre": "wqerq",
+      "apellido": "wqer",
+      "serie": "qwer",
+      "id": 17
+    },
+    {
+      "nombre": "weqrwerqwe",
+      "apellido": "wwwwwwwwwwwwwww",
+      "serie": "wwwwwwwwwwwwww",
+      "id": 18
+    },
+    {
+      "nombre": "hola",
+      "apellido": "chau",
+      "serie": "sda",
+      "id": 19
+    },
+    {
+      "nombre": "chau",
+      "apellido": "chau",
+      "serie": "chau",
+      "id": 20
+    }
+  ]
+}
